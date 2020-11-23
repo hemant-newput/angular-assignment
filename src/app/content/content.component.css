@@ -1,6 +1,7 @@
 .card
 {
     margin: 20px 10px ;
+height: 430px;
     
 }
 .card:hover{
