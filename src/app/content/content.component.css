@@ -1,0 +1,33 @@
+.card
+{
+    margin: 20px 10px ;
+    
+}
+.card:hover{
+    background-color:aliceblue;
+    outline: 4px solid rgb(2, 59, 59);
+    outline-offset: 5px;
+}
+.card-text
+{
+    color: black;
+    font-size: small;
+}
+.card-img-top
+{
+max-width: 200px;
+margin: 0px auto;
+}
+h2
+{
+    color: red;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px orange;
+}
+.btn{
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: blue;
+    
+}

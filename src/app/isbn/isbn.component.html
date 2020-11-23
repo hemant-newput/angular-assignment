@@ -1,0 +1,28 @@
+
+ 
+<div style="display: flex;flex-wrap: wrap;justify-content: space-evenly; border:2px solid grey;">
+    <!-- <div *ngFor="let book of isbnBooks" > -->
+    <!-- <a href={{book.url}}> -->
+        <div class="container">
+            <img src={{isbnBooks.image}} alt="There is supposed to be an image">
+            <div class="card-body">
+              <h5 class="card-title">{{isbnBooks.title | titlecase}}</h5>
+              <p class="card-text">Subtitle: {{isbnBooks.subtitle}}</p>
+              <p class="card-text">Authors: {{isbnBooks.authors}}</p>
+              <p class="card-text">Publisher: {{isbnBooks.publisher}}</p>
+              <p class="card-text">Language: {{isbnBooks.language}}</p>
+              <p class="card-text">Rating: {{isbnBooks.rating}}</p>
+              <p class="card-text"><b>Description</b>: {{isbnBooks.desc}}</p>
+              <p class="card-text">Number of Pages: {{isbnBooks.pages}}</p>
+              <p class="card-text">Year: {{isbnBooks.year}}</p>
+              <p class="card-text">Price: {{isbnBooks.price}}</p>
+              <!-- <p class="card-text">{{isbnBooks.url}}</p> -->
+              
+              
+              
+            </div>
+          </div>
+        <!-- </a> -->
+    <!-- </div> -->
+    </div>
+    <!-- {"error":"0","title":"Securing DevOps","subtitle":"Security in the Cloud","authors":"Julien Vehent","publisher":"Manning","language":"English","isbn10":"1617294136","isbn13":"9781617294136","pages":"384","year":"2018","rating":"5","desc":"An application running in the cloud can benefit from incredible efficiencies, but they come with unique security threats too. A DevOps team's highest priority is understanding those risks and hardening the system against them.Securing DevOps teaches you the essential techniques to secure your cloud ...","price":"$39.99","image":"https://itbook.store/img/books/9781617294136.png","url":"https://itbook.store/books/9781617294136","pdf":{"Chapter 2":"https://itbook.store/files/9781617294136/chapter2.pdf","Chapter 5":"https://itbook.store/files/9781617294136/chapter5.pdf"}} -->

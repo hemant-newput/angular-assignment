@@ -1,0 +1,42 @@
+h2
+{
+    color: blue;
+    text-shadow: 5px 5px 5px lightblue;
+    text-transform: capitalize;
+}
+.footer
+{
+    clear: both;
+}
+.sidebar{
+    width: 20%; margin-left: 50px; float: left;
+}
+.router-outlet
+{
+    width: 75%;float:right; display: flex; justify-content: space-evenly;flex-wrap: nowrap;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background-color: aliceblue;
+    background-image: url(../assets/wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: x-large;
+    font-weight: bolder;
+    color: Blue;
+    text-shadow: 5px 5px 5px lightblue;
+}
+
+.sidebar li{
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    color: red;
+    border: 1px solid grey;
+    text-transform: capitalize;
+}

@@ -1,0 +1,4 @@
+<h2>Categories</h2>
+<ul class="list-group" *ngFor="let category of categories">
+  <li class="list-group-item" (click)="onSelect(category)" >{{category.name | titlecase}}</li>
+</ul>

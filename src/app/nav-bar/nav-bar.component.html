@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <img src="../assets/icon.png" width="50px" alt="">  
+  <a class="navbar-brand"  href="#">Book Store</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div>
+    <form class="form-inline my-2 my-rg-0 ">
+        <input #searchKeyword class="form-control mr-sm-2" type="search" style="width: 550px;" placeholder="Enter Book Isbn or Name">
+        <button (click)="search(searchKeyword.value)" class="btn btn-outline-success my-2 my-sm-0" type="button">Search By Book Name</button>
+        <button (click)="searchByIsbn(searchKeyword.value)" class="btn btn-outline-success my-2 my-sm-0" type="button">Search By ISBN</button>
+      </form>
+    </div>
+    <div>
+      <a (click)="login()"><img src="../../assets/login.jpg" class="login-icon" alt="There is supposed to be an image"></a>
+    </div>
+  </nav>
+  

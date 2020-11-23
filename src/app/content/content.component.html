@@ -1,0 +1,15 @@
+
+<div style="display: flex;flex-wrap: wrap;justify-content: space-evenly; border:2px solid grey;">
+<div *ngFor="let book of books['books']" >
+<!-- <a href={{book.url}}> -->
+    <div class="card" style="width: 18rem;">
+        <img src={{book.image}} class="card-img-top" alt="There is supposed to be an image">
+        <div class="card-body">
+          <h5 class="card-title">{{book.title | titlecase}}</h5>
+          <p class="card-text">{{book.subtitle}}</p>
+          <a href={{book.url}} class="btn btn-primary">{{book.price}}</a>
+        </div>
+      </div>
+    <!-- </a> -->
+</div>
+</div>

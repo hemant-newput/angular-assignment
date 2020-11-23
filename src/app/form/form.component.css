@@ -1,0 +1,14 @@
+.container-fluid
+{
+    background-color: white;
+    width: 100%;
+    display: block;
+    text-align: left;
+    
+}
+
+h2
+{
+    font-family: "Concert One";
+    margin:20px 320px;
+}

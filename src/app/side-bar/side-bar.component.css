@@ -1,0 +1,27 @@
+h2
+{
+    margin: 25px;
+    color: Black;
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px white;
+    text-align: center;
+    text-transform: capitalize;
+}
+*
+{
+    font-family: "Abril Fatface";
+    font-size: x-large  ;
+    color: white;
+}
+.list-group-item
+{
+    font-size: larger;
+    background-color: transparent;
+}
+.list-group-item:hover{
+    background-color: rgba(255, 255, 255, 0.692);
+    border: 2px solid black;
+    font-size: xx-large;
+    border-radius: 45px;
+    cursor: pointer;
+}

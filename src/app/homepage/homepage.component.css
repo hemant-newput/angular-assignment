@@ -1,0 +1,9 @@
+.container
+{
+    min-height: 500px;
+    min-width: 800px;
+    margin:20px;
+    /* background-image: url(../../assets/books.jpg); */
+    /* background-image: url(../../assets/homepage.jpg); */
+    /* background-size: contain; */
+}
