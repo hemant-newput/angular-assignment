@@ -17,10 +17,7 @@ export class SideBarComponent implements OnInit {
     {id:4,name:"angular"},
     {id:5,name:"react"},
     {id:6, name:"python"},
-    {id:7, name:"Express"},
-    {id:8, name:"MongoDB"},
-    {id:9, name:"MySQL"},
-    {id:10, name:"PostGreSQL"},
+
   ];
 
   constructor(private fetchDataService:FetchDataService ,private router:Router) { }
